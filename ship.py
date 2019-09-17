@@ -9,4 +9,4 @@ class Ship():
         print("%s shot %s for %d damage" %
               (self.name, ship.name, self.damage_amount))
         if ship.health <= 0:
-            print("%s was destroyed by %s" % (ship.name, self.name))
+            print("%s was destroyed by %s" % (ship.title, self.name))
